@@ -13,3 +13,31 @@ When the user clicks on the link, the token information from the link is queried
 - You can specify your SMTP information either in the `application.yaml` file or by defining `JavaMailSender` as a Bean in the `MailConfiguration.java` file. I have clearly indicated the fields you need to fill out in these two files. Both configurations will be converted into a `JavaMailSender` object by Spring.
 
 - Remember that the converted objects need to be connected to the Event Listener classes by Spring. I have established this connection using the `constructor` method.
+
+
+# Spring Security Register with Email Verification Token
+
+This project demonstrates user registration with Spring Security and email verification tokens.
+
+## Steps to Run the Project
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/RBaykan/Spring_Security_Register_Email_Verification_Token.git
+Navigate to the project directory:
+
+bash
+Kodu kopyala
+cd Spring_Security_Register_Email_Verification_Token
+Download dependencies and build the project:
+
+bash
+Kodu kopyala
+mvn clean install
+Run the application:
+
+bash
+Kodu kopyala
+mvn spring-boot:run
+The application should now be running on http://localhost:8080.
