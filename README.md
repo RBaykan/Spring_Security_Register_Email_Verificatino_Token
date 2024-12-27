@@ -32,3 +32,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 The application should now be running on `http://localhost:8080.`
+
+4. Follow the `CreateDTO` object and prepare a JSON file accordingly, then send a POST request to the following address: `http://localhost:8080/api/user`.
+
+
