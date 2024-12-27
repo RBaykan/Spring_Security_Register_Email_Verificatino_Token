@@ -22,12 +22,11 @@ When the user clicks on the link, the token information from the link is queried
 ```bash
 git clone https://github.com/RBaykan/Spring_Security_Register_Email_Verification_Token.git
 ```
-
-- Navigate to the project directory:
+2. **Navigate to the project directory**:
 ```bash
 cd Spring_Security_Register_Email_Verification_Token
 ```
-- Dependencies and build the project:
+3. **Dependencies and build the project**:
 ```bash
 mvn clean install
 ```
@@ -35,5 +34,4 @@ mvn clean install
 ```bash
 bash mvn spring-boot:run
 ```
-
-- The application should now be running on `http://localhost:8080.`
+The application should now be running on `http://localhost:8080.`
