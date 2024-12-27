@@ -10,7 +10,7 @@
 When the user clicks on the link, the token information from the link is queried in the database, and the token verification process is carried out. If the token is valid, the user is activated.
 
 ## Configure Your SMTP
-- You can specify your SMTP information either in the `application.yaml` file or by defining `JavaMailSender` as a Bean in the `MailConfiguration.java` file. I have clearly indicated the fields you need to fill out in these two files. Both configurations will be converted into a `JavaMailSender` object by Spring.
+- You can specify your SMTP information either in the `application.yml` file or by defining `JavaMailSender` as a Bean in the `MailConfiguration.java` file. I have clearly indicated the fields you need to fill out in these two files. Both configurations will be converted into a `JavaMailSender` object by Spring.
 
 - Remember that the converted objects need to be connected to the Event Listener classes by Spring. I have established this connection using the `constructor` method.
 
