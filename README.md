@@ -17,7 +17,8 @@ When the user clicks on the link, the token information from the link is queried
 ## Steps to Run the Project
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/RBaykan/Spring_Security_Register_Email_Verification_Token.git```
+git clone https://github.com/RBaykan/Spring_Security_Register_Email_Verification_Token.git
+```
 2. **Navigate to the project directory**:
 ```bash
 cd Spring_Security_Register_Email_Verification_Token
