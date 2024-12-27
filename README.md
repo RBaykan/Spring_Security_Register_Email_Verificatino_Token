@@ -14,11 +14,8 @@ When the user clicks on the link, the token information from the link is queried
 
 - Remember that the converted objects need to be connected to the Event Listener classes by Spring. I have established this connection using the `constructor` method.
 
-
 ## Steps to Run the Project
-
 1. **Clone the repository**:
-
 ```bash
 git clone https://github.com/RBaykan/Spring_Security_Register_Email_Verification_Token.git
 ```
