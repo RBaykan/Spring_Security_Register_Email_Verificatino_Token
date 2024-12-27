@@ -15,10 +15,6 @@ When the user clicks on the link, the token information from the link is queried
 - Remember that the converted objects need to be connected to the Event Listener classes by Spring. I have established this connection using the `constructor` method.
 
 
-# Spring Security Register with Email Verification Token
-
-This project demonstrates user registration with Spring Security and email verification tokens.
-
 ## Steps to Run the Project
 
 1. **Clone the repository**:
